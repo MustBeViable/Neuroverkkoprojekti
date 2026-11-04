@@ -1,0 +1,1 @@
+sormenjalkitunnistin/kuvat/*.zip filter=lfs diff=lfs merge=lfs -text
