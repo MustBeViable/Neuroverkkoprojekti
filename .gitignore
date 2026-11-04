@@ -19,3 +19,10 @@ venv/
 # Ladatut aineistot
 mnist_data/
 cifar-10-batches-py/
+
+# Ignore extracted folders
+sormenjalkitunnistin/kuvat/*/
+sormenjalkitunnistin/dataset_split/
+
+# Keep ZIP files
+!sormenjalkitunnistin/kuvat/*.zip
