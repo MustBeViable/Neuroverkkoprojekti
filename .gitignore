@@ -19,3 +19,7 @@ venv/
 # Ladatut aineistot
 mnist_data/
 cifar-10-batches-py/
+
+dataset_split/
+sormenjalkitunnistin/kuvat/
+*.weights.h5
