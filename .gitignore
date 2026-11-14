@@ -26,3 +26,6 @@ sormenjalkitunnistin/dataset_split/
 
 # Keep ZIP files
 !sormenjalkitunnistin/kuvat/*.zip
+
+# ignore test
+sormenjalkitunnistin/test.ipynb
