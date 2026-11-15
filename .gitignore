@@ -21,5 +21,14 @@ mnist_data/
 cifar-10-batches-py/
 
 dataset_split/
-sormenjalkitunnistin/kuvat/
+sormenjalkitunnistin/kuvat/*
 *.weights.h5
+# Ignore extracted folders
+sormenjalkitunnistin/kuvat/*/
+sormenjalkitunnistin/dataset_split/
+
+# Keep ZIP files
+!sormenjalkitunnistin/kuvat/*.zip
+
+# ignore test
+sormenjalkitunnistin/test.ipynb
